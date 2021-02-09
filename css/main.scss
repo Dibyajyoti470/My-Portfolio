@@ -56,6 +56,7 @@ img {
             li {
                 display: block;
                 font-size: 0.6em;
+                font-weight: 600;
                 padding: 0 0.6em;
             }
         }
@@ -122,6 +123,7 @@ section {
     color: var(--primary-color);
     letter-spacing: 0.2em;
     font-size: 0.8em;
+    margin-bottom: 0.3em;
 }
 
 .featured-title {
@@ -164,8 +166,33 @@ section {
                 width: 60px;
             }
 
-            &.two img {
-                width: 150px;
+            &.two {
+                font-size: 1.2em;
+                color: #B8B8B8;
+                span {
+                    color: var(--primary-color);
+                }
+            }
+
+            &.three {
+                font-size: 2em;
+                font-weight: bold;
+                color: #B8B8B8;
+
+                p {
+                    line-height: 0.8em;
+                }
+                span {
+                    color: var(--primary-color);
+                }
+
+                & >:first-child {
+                    transform: translateX(-20%);
+                }
+
+                & >:last-child {
+                    transform: translateX(20%);
+                }
             }
         }
     
@@ -227,9 +254,10 @@ footer {
         .quick-links a {
             display: block;
             color: white;
-            font-size: 0.8em;
             padding: 0.2em;
-            margin-bottom: 0.2em;
+            margin-bottom: 0.5em;
+            font-size: 0.6em;
+            font-weight: 600;
         }
     }
 
