@@ -55,8 +55,8 @@ img {
 
             li {
                 display: block;
-                font-size: 0.8em;
-                padding: 0 0.5em;
+                font-size: 0.6em;
+                padding: 0 0.6em;
             }
         }
     }
@@ -71,10 +71,10 @@ img {
     color: white;
     display: grid;
     text-align: center;
-    padding: 5em 4em;
+    padding: 5em 2em;
 
     h1 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .meet {
@@ -126,7 +126,7 @@ section {
 
 .featured-title {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.2em;
     display: block;
     margin-bottom: 1em;
 }
@@ -162,6 +162,10 @@ section {
     
             &.one img {
                 width: 60px;
+            }
+
+            &.two img {
+                width: 150px;
             }
         }
     
