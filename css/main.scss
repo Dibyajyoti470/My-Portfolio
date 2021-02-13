@@ -488,3 +488,18 @@ footer {
     }
 }
 
+.scroll-dot {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translate(233px, 714px);
+        z-index: 5;
+    }
+
+    from {
+        transform: translate(233px, 755px);
+    }
+}
+

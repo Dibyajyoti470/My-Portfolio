@@ -468,4 +468,32 @@ footer img.footer-design {
     padding: 4em 10em;
   }
 }
+
+.scroll-dot {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(233px, 714px);
+            transform: translate(233px, 714px);
+    z-index: 5;
+  }
+  from {
+    -webkit-transform: translate(233px, 755px);
+            transform: translate(233px, 755px);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(233px, 714px);
+            transform: translate(233px, 714px);
+    z-index: 5;
+  }
+  from {
+    -webkit-transform: translate(233px, 755px);
+            transform: translate(233px, 755px);
+  }
+}
 /*# sourceMappingURL=main.css.map */
